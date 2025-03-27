@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Node.js Cluster Module Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    h1 { color: #333; }
+    p { font-size: 1.2em; }
+    .worker { margin: 20px 0; padding: 10px; background: #f4f4f4; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Node.js Cluster Module Demo</h1>
+  <div class="worker">
+    <p>This request was served by worker process with PID: <strong><%= workerId %></strong>.</p>
+  </div>
+  <p>Refresh the page to see how different worker processes handle requests.</p>
+</body>
+</html>
